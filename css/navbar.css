@@ -1,0 +1,45 @@
+nav {
+    padding: .375rem .75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo {
+    width: 10rem;
+    height: auto;
+}
+nav .tabs {
+    background-color: var(--background-color);
+    padding: .625rem 1rem;
+    border-radius: 1.25rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid var(--secondary-color);
+
+}
+.tabs li {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    position: relative;
+    padding: .625rem 1.25rem;
+        font-family: 'Epilogue', sans-serif;
+
+}
+
+.tabs li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: var(--neutral-color);
+  transition: width 0.4s ease;
+
+}
+
+.tabs li:hover::after {
+    width: 100%;
+}
