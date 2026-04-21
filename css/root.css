@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #000;
+    --primary-color: #10002B;
     --secondary-color: #575656;
-    --hover-color: #2B2735;
+    --hover-color: rgba(153, 70, 221, 0.816);
     --background-color: #1A1A1A;
     --neutral-color: #FFF;
     --btn-hover-color: #D1D1D1;
@@ -13,17 +13,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: var(--primary-color);
+    gap: 6rem;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 .container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 3.75rem;
-    padding-right: 3.75rem;
     width: 100%;
-    max-width: 100%;
+    max-width: 80rem;
 }
 .btn {
     background-color: var(--secondary-color);
@@ -32,9 +35,9 @@ body {
     border: 1px solid var(--neutral-color);
     transition: color 0.3s ease-in;
     transition: background 0.3s ease-in;
-
+    
 }
 .btn:hover {
     background-color: var(--btn-hover-color);
-    color: var(--primary-color);
+    color: var(--hover-color);
 }

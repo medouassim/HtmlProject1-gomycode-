@@ -7,6 +7,12 @@ nav {
 nav .logo {
     width: 10rem;
     height: auto;
+    transition: all 0.3s ease;
+}
+
+nav .logo:hover {
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 1rem var(--hover-color));
 }
 nav .tabs {
     background-color: var(--background-color);
@@ -23,8 +29,7 @@ nav .tabs {
     line-height: 1.75rem;
     position: relative;
     padding: .625rem 1.25rem;
-        font-family: 'Epilogue', sans-serif;
-
+    font-family: 'Epilogue', sans-serif;
 }
 
 .tabs li::after {
@@ -35,7 +40,7 @@ nav .tabs {
   transform: translateX(-50%);
   width: 0;
   height: 2px;
-  background-color: var(--neutral-color);
+  background-color: var(--hover-color);
   transition: width 0.4s ease;
 
 }
