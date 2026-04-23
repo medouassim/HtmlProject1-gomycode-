@@ -51,7 +51,7 @@
     width: 5rem;
     height: 5rem;
     font-size: 3rem;
-    background: rgba(157, 78, 221, 0.21);
+    background: #9d4edd8f;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@
 #hero .img-container .fa-mongo    { bottom: 15%; left: -10%; }
 #hero .img-container .fa-js       { top: 5%;   right: -10%; }
 #hero .img-container .fa-css3-alt      { bottom: -10%; right: 12%; }
-#hero .img-container .fa-html-5      { bottom: 10%; left: 12%; }
+#hero .img-container .fa-html5      { bottom: 10%; left: 12%; }
 #hero .img-container .fa-git-alt      { bottom: 40%; right: -20%; }
 #hero .img-container .fa-npm      { top: -15%; right: 40%; }
 

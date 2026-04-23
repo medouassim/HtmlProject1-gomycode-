@@ -1,12 +1,13 @@
 :root {
     --primary-color: #10002B;
     --secondary-color: #575656;
-    --hover-color: rgba(153, 70, 221, 0.816);
+    --hover-color: #9D4EDD;
+    --transparent-background: #9d4edd8f;
     --background-color: #1A1A1A;
     --neutral-color: #FFF;
-    --btn-hover-color: #D1D1D1;
+    --btn-hover-color: #d4d1d1;
     font-family: "Space Grotesk", sans-serif;;
-    color: var(--neutral-color);
+    color: #c7c3d6;
     font-size: 16px;
 }
 body {
@@ -15,7 +16,7 @@ body {
     align-items: center;
     overflow-x: hidden;
     background-color: var(--primary-color);
-    gap: 6rem;
+    gap: 8rem;
 }
 main {
     display: flex;
@@ -40,4 +41,14 @@ main {
 .btn:hover {
     background-color: var(--btn-hover-color);
     color: var(--hover-color);
+}
+h2 span, h1 span, h3 span, h4 span {
+    color: var(--hover-color);
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
 }
