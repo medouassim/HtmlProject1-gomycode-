@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     gap: 5rem;
-    padding: 1rem 0;
 }
 #about .container .developer {
     display: flex;
@@ -15,34 +14,7 @@
 #about .container .developer > div {
     display: flex;
 }
-#about .skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    padding: 0 1rem ;
-    align-items: start;
-}
-#about h4.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid var(--hover-color);
-    color: var(--hover-color);
-    padding: 0.3rem 0.1rem;
-    border-radius: 1rem;
-    width: 6rem;
-    font-weight: 200;
-    margin-left: 3rem;
-    text-transform: uppercase;
-}
-#about .skills p {
-    border: 1px solid var(--neutral-color);
-    color: var(--neutral-color);
-    padding: 0.3rem 0.6rem;
-    border-radius: 1rem;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-}
+
 #about .img-container {
     display: flex;
     flex-direction: column;

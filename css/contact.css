@@ -1,0 +1,111 @@
+#contact .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#contact .contact-wrapper {
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+}
+#contact .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 28rem;
+    border-right: 2px solid var(--hover-color);
+    padding-right: 3rem;
+}
+#contact .contact-info .info-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+#contact .contact-info .info-item i {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid var(--hover-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--hover-color);
+    background-color: #9d4edd1a;
+    filter: drop-shadow(0 0 0.5rem var(--hover-color));
+    flex-shrink: 0;
+}
+#contact .contact-info .info-item h3 {
+    color: var(--neutral-color);
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+}
+#contact .contact-info .info-item p {
+    font-size: 1rem;
+    color: #c7c3d6;
+}
+#contact .contact-socials {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+#contact .contact-socials a {
+    transition: all 0.3s ease;
+}
+#contact .contact-socials a:hover {
+    color: var(--hover-color);
+    filter: drop-shadow(0 0 0.4rem var(--hover-color));
+    transform: scale(1.2);
+}
+
+/* Form */
+#contact .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1;
+}
+#contact .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#contact .form-group label {
+    font-size: 1rem;
+    color: var(--neutral-color);
+    font-family: 'Epilogue', sans-serif;
+}
+#contact .form-group input,
+#contact .form-group textarea {
+    background-color: #110F23;
+    border: 1px solid var(--secondary-color);
+    border-radius: 0.75rem;
+    padding: 0.9rem 1.2rem;
+    font-size: 1rem;
+    color: #c7c3d6;
+    transition: border-color 0.3s ease;
+    resize: none;
+    width: 100%;
+}
+#contact .form-group input:focus,
+#contact .form-group textarea:focus {
+    border-color: var(--hover-color);
+    outline: none;
+}
+#contact .form-group input::placeholder,
+#contact .form-group textarea::placeholder {
+    color: var(--secondary-color);
+}
+#contact .contact-form .btn {
+    align-self: flex-start;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-color: var(--hover-color);
+    color: var(--hover-color);
+    background-color: transparent;
+}
+#contact .contact-form .btn:hover {
+    background-color: var(--hover-color);
+    color: var(--neutral-color);
+}
